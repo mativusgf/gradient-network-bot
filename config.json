@@ -1,0 +1,6 @@
+{
+    "num_threads": 5,
+    "accounts_file": "farm.txt",
+    "proxies_file": "proxy.txt",
+    "session_interval": 1200
+}

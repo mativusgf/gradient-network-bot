@@ -1,0 +1,24 @@
+{
+   "action": {
+      "default_icon": "icons/icon-128.png",
+      "default_popup": "popup.html"
+   },
+   "background": {
+      "service_worker": "background.bundle.js"
+   },
+   "description": "Get a sentry node and join the future of ubiquitous compute.",
+   "externally_connectable": {
+      "matches": [ "https://app.gradient.network/*" ]
+   },
+   "icons": {
+      "128": "icons/icon-128.png",
+      "16": "icons/icon-16.png",
+      "48": "icons/icon-48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxgfT+tshcGopSwsE/dIGgqyzFonzXdJPH3Z/2G7CX7YH7iC5RsubOQ3NZHKbUgkfFA38D+BU6WoUpvExiz9sEHSyGHQ5tRRzwJ/PoxGkKMJexADzYuLK7Af9W8HnXPQMIITq4DQ5m216DTeWZn6N7h4+eCFTiqrku+7wmLoi2+1zjUb3EagpcW3kW5bKMvYzHQTTZ8gkV5/iO9LngwE4qihghdk2vf71HJ9W7Gsu6f47GO8Fd+ZijlvujEUQOJh7I2onToI7y37O2NbQoXqygsaw2GEg4NjQpTr15VRS+DhluzvzWGfZiiufQCXZP4BS8I5NpXeXtjYZcjxK2nJ5IwIDAQAB",
+   "manifest_version": 3,
+   "name": "Gradient Sentry Node",
+   "permissions": [ "storage", "offscreen" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0.14"
+}
